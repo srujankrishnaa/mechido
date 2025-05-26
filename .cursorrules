@@ -1,0 +1,40 @@
+{
+  "projectName": "mechido",
+  "rules": {
+    "frontend": {
+      "framework": "flutter",
+      "directory": "lib/",
+      "structure": {
+        "screens": "lib/screens/",
+        "widgets": "lib/widgets/",
+        "models": "lib/models/",
+        "services": "lib/services/",
+        "utils": "lib/utils/",
+        "constants": "lib/constants/"
+      }
+    },
+    "backend": {
+      "service": "supabase",
+      "directory": "supabase/"
+    },
+    "assets": {
+      "directory": "assets/",
+      "subdirectories": ["images/", "icons/", "fonts/"]
+    },
+    "config": {
+      "directory": "config/",
+      "files": ["app_config.dart", "theme.dart", "routes.dart"]
+    }
+  },
+  "dependencies": {
+    "frontend": {
+      "flutter": "latest",
+      "supabase_flutter": "latest",
+      "google_maps_flutter": "latest",
+      "razorpay_flutter": "latest",
+      "flutter_bloc": "latest",
+      "get_it": "latest",
+      "dio": "latest"
+    }
+  }
+} 
